@@ -1,62 +1,43 @@
-<!--
-SPDX-FileCopyrightText: 2023 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
-SPDX-FileCopyrightText: 2023 Myakot <30875116+Myakot@users.noreply.github.com>
-SPDX-FileCopyrightText: 2023 end <72604018+laok233@users.noreply.github.com>
-SPDX-FileCopyrightText: 2024 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
-SPDX-FileCopyrightText: 2024 UBlueberry <161545003+UBlueberry@users.noreply.github.com>
-SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-
-SPDX-License-Identifier: AGPL-3.0-or-later
--->
-
 <Document>
-# Station and Shifts
+# Filosofia Medium RP
 
-Every round of SS14 is a [bold]self-contained shift[/bold] that takes place on one of many different stations.
+## Objetivo do Servidor
+Criar rodadas interessantes através de interação, conflito e cooperação.
 
-Rounds typically last from [color=cyan]45 to 90 minutes[/color], but players are free to leave and join at any point during a round.
+## Regra Principal
+Jogue para criar gameplay para os outros jogadores.
 
-## Shuttle Terminal
-If you join in the middle of a shift, you will likely spawn on the [color=lime]shuttle terminal[/color].
-Here you can grab drinks, converse with other players, and wait for the shuttle to take you to the station.
+## Stay In Character
+Seu personagem deve agir de forma coerente com o universo do jogo.
+- Humor é permitido.
+- Meme constante e quebra total de imersão não são permitidos.
 
-Screens on the walls will give you an ETA for the shuttle.
-When it arrives, simply walk on to be transported to the station.
+## Escalonamento de Conflito
+Conflitos devem escalar de forma coerente:
+1. Conversa
+2. Ameaça
+3. Confronto leve
+4. Violência séria
+5. Letalidade
 
-Make sure to stay inside the terminal and to not stand in the shuttle landing zone. [color=#EB2D3A][bold]You can be crushed by shuttles flying in[/bold][/color]
+## Valorização da Vida
+Seu personagem quer sobreviver.
+Atos heroicos são permitidos.
+Suicídio repetitivo e comportamento kamikaze sem contexto não são permitidos.
 
-## Navigation
-Every station has a wide variety of locations to visit.
-These range from specific departments where work happens to common areas where you can relax and chat with others.
+## Antagonistas
+Antagonistas devem criar conflito jogável.
+- Permitido: sabotagem, manipulação, sequestro, tensão.
+- Não permitido: speedrun de massacre ou round removal precoce.
 
-<Box>
-  <GuideEntityEmbed Entity="StationMap"/>
-  <GuideEntityEmbed Entity="SignDirectionalDorms" Caption="Directional Signs"/>
-  <GuideEntityEmbed Entity="SignBridge" Caption="Marker Signs"/>
-</Box>
+## Powergaming
+Competência não é proibida.
+Powergaming é remover gameplay dos outros usando apenas mecânica.
 
-[color=cyan]Station maps[/color] give you an overview of the entire station with colored markers denoting locations of different things.
-Regular [color=cyan]signs[/color] on walls can point you to different departments.
+## Metagaming
+Você só sabe o que aprendeu IC.
+Informações OOC não podem influenciar ações IC.
 
-## Leaving the Station
-At the end of the shift [color=gray](barring a [color=red][bold]nuclear disaster[/bold][/color])[/color], you will leave the station via the [color=lime]evac shuttle[/color].
-When it's called, an announcement will play on the station alerting the crew and signaling its [color=cyan]arrival in 10 minutes.[/color]
-Once it arrives, you'll need to make your way over to it, board it, and then survive the trip to [bold]Central Command[/bold].
-
-The round doesn't officially end until you reach [bold]Central Command[/bold]
-
-<Box>
-  <GuideEntityEmbed Entity="CryogenicSleepUnit"/>
-</Box>
-
-If you need to leave a round early, you can do so through a [color=lime]cryogenic sleep unit[/color].
-Simply going inside and leaving the game will store your belongings and ensure that they are not stolen or misused.
-
-## More Info
-Learning the controls? [textlink="Click here to read about the different controls" link="Controls"]
-
-Don't know how to perform a job? [textlink="Click here to jump to a list of departments" link="Jobs"]
-
-Keep dying? [textlink="Click here to see a survival guide" link="Survival"]
-
+## Autoantag
+Sem mecânica ou motivo válido, você não pode agir como antagonista completo.
 </Document>
