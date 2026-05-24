@@ -7,21 +7,21 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Antagonists
-  Antagonists are the driving force of every shift.
-  They are the catalysts for chaos, conflict and mystery in Space Station 14 that also serve to provide a challenge to Nanotrasen and its [color=#cb0000]Security[/color] force.
-  You can expect them to act in violation of Space Law and they're often tasked with objectives that include theft, subterfuge and murder.
+  # Antagonistas (Regras de Medium RP)
+  Os antagonistas são a força motriz de cada turno. Eles são os catalisadores do caos, do conflito e do mistério na Estação, servindo para desafiar a tripulação e a [color=#cb0000]Segurança[/color].
 
-  These bad actors are more often than not employed or backed by the [color=#ff0000]Syndicate[/color], a rival organization to Nanotrasen that wants nothing more than to see it burn.
+  - Como antagonista, você tem autorização para violar a **Lei Espacial**, mas **NÃO** as regras do servidor.
+  - **A Regra de Ouro do MRP:** O seu objetivo é criar uma história interessante e dinâmica. Matar jogadores que não estão envolvidos nos seus objetivos sem nenhuma interação prévia (escalação) é considerado *LRP/Griefing* e resultará em punição.
 
-  ## Various Antagonists
-  Antagonists can take many forms, like:
-  - [textlink="Nuclear operatives" link="Nuclear Operatives"], with the goal of infiltrating and destroying the station.
-  - [textlink="Traitors" link="Traitors"] amongst the crew who must assassinate, steal and decieve.
-  - [textlink="Revolutionaries" link="Revolutionaries"] who are intent on taking control of the station from the inside.
-  - [textlink="Zombies" link="Zombies"] that crave the flesh of every crew member and creature on board.
-  - [textlink="Space Ninjas" link="SpaceNinja"], masters of espionage and sabotage with special gear.
-  - [textlink="Thieves" link="Thieves"] driven by kleptomania, determined to get their fix using their special gloves.
-  - [textlink="The Cosmic Cult" link="CosmicCult"], who seek to usher in the end of all things.
-  - [textlink="Various non-humanoid creatures" link="MinorAntagonists"] that generally attack anything that moves.
+  ## Categorias de Antagonistas
+
+  ### 1. Antagonistas Furtivos (Stealth)
+  [textlink="Traidores" link="Traitors"] e [textlink="Ladrões" link="Thieves"] operam nas sombras. Eles devem priorizar a discrição. O assassinato em massa ou a destruição total da estação por parte deles é proibida, a menos que seus objetivos específicos exijam.
+
+  ### 2. Antagonistas de Conversão (Cultos/Insurreição)
+  [textlink="Revolucionários" link="Revolutionaries"] e [textlink="Shadowlings" link="Shadowlings"] buscam converter a tripulação para a sua causa.
+  - **Regra:** O foco deve ser a conversão e o planejamento tático. Transformar o modo de jogo em um mata-mata generalizado nos corredores logo nos primeiros minutos quebra o fluxo do jogo.
+
+  ### 3. Ameaças de Crise (Destrutivos)
+  [textlink="Operativos Nucleares" link="Nuclear Operatives"], [textlink="Zumbis" link="Zombies"] e [textlink="Ninjas Espaciais" link="SpaceNinja"] são ameaças severas. Nestes modos, o combate direto e a força letal são esperados de ambos os lados, mas os antagonistas ainda devem seguir rigidamente seus objetivos principais (ex: armar a ogiva) em vez de apenas caçar jogadores em locais isolados.
 </Document>

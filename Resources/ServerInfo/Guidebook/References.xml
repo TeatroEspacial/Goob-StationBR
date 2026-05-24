@@ -1,11 +1,37 @@
-<!--
-SPDX-FileCopyrightText: 2024 UBlueberry <161545003+UBlueberry@users.noreply.github.com>
-SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-
-SPDX-License-Identifier: AGPL-3.0-or-later
--->
-
 <Document>
-  # Reference Tables
-  This entry is made to contain information that you might have to come back to over and over again. Use as necessary.
+# Referência de Regras Administrativas
+
+## Interpretação de Regras
+As regras devem ser interpretadas visando:
+- manter gameplay,
+- preservar interação,
+- evitar abuso,
+- reduzir punições desnecessárias.
+
+## Staff
+Staff deve agir com:
+- consistência,
+- transparência,
+- proporcionalidade.
+
+## Política de Punições
+Prioridade:
+1. Educação
+2. Correção
+3. Punição
+
+Banimentos severos devem ser reservados para:
+- grief recorrente,
+- racismo,
+- assédio,
+- exploits,
+- má fé evidente.
+
+## No Fun Allowed
+A administração não deve impedir criatividade apenas por ser incomum.
+Se gera gameplay saudável e coerente, provavelmente deve ser permitido.
+
+## Bom Senso
+Nenhuma regra cobre todas as situações.
+Bom senso e intenção da rodada têm prioridade sobre tecnicalidades.
 </Document>
