@@ -22,39 +22,55 @@ SPDX-FileCopyrightText: 2025 Piras314 <p1r4s@proton.me>
 SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
-<p align="center"> <img alt="Space Station 14" width="880" height="300" src="https://github.com/Goob-Station/Goob-Station/blob/master/Resources/Textures/Logo/logo.png" /></p>
+<p align="center"> <img alt="Teatro Espacial 14" width="880" height="300" src="https://github.com/Goob-Station/Goob-Station/blob/master/Resources/Textures/Logo/logo.png" /></p>
 
-This is a fork from the primary repo for Space Station 14 called Goob Station. To prevent people forking RobustToolbox, a "content" pack is loaded by the client and server. This content pack contains everything needed to play the game on one specific server this is the content pack for Goob Station.
+# Teatro Espacial 14 🚀
 
-If you want to host or create content for SS14, go to the [Space Station 14 repository](https://github.com/space-wizards/space-station-14) as it contains both RobustToolbox and the content pack for development of new content packs and is the base for your fork.
+Bem-vindo ao **Teatro Espacial 14** — um servidor brasileiro de **Space Station 14** baseado no [Goob Station](https://github.com/Goob-Station/Goob-Station). Junte-se à tripulação e explore a estação espacial mais caótica e divertida do Brasil!
+
+## Informações do Servidor
+
+| | |
+|---|---|
+| **Nome** | Teatro Espacial 14 |
+| **Endereço** | `45.157.16.64:1214` |
+| **Idioma** | Português (BR) |
+| **Base** | Goob Station |
+
+## Como Jogar
+
+1. Baixe o [Space Station 14 Launcher](https://spacestation14.io/about/nightlies/)
+2. Abra o launcher e procure por **Teatro Espacial 14** na lista de servidores
+3. Conecte-se e divirta-se!
 
 ## Links
 
-[Goob Station Discord Server](https://discord.gg/goobstation) | [Goob Station Development Discord Server](https://discord.gg/zXk2cyhzPN) | [Goob Station Forum](https://forums.goobstation.com/) | [Goob Station Website](https://goobstation.com)
+[Discord do Teatro Espacial](https://discord.gg/teatroespacial) | [Discord de Desenvolvimento](https://discord.gg/zXk2cyhzPN)
 
-## Documentation/Wiki
+## Sobre o Projeto
 
-The Goob Station [docs site](https://docs.goobstation.com/) has documentation on GS14's content, engine, game design, and more. It also has lots of resources for new contributors to the project.
+Este repositório é um fork do [Goob Station](https://github.com/Goob-Station/Goob-Station) adaptado para o servidor brasileiro **Teatro Espacial 14**. Contém todo o conteúdo necessário para rodar o jogo no servidor — mapas, mecânicas, traduções e personalizações.
 
-## Contributing
+Se você quer criar seu próprio fork ou hospedar um servidor de SS14, o repositório oficial da [Space Station 14](https://github.com/space-wizards/space-station-14) é o ponto de partida ideal, pois contém tanto a RobustToolbox quanto o pacote de conteúdo base.
 
-We are happy to accept contributions from anybody. Get in [Development Discord Server](https://discord.gg/zXk2cyhzPN) if you want to help. Feel free to check the [list of issues](https://github.com/Goob-Station/Goob-Station/issues) that need to be done and anybody can pick them up. Don't be afraid to ask for help either!
-While following the [Space Station 14 contribution guidelines](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html) is not mandatory for Goob Station, we recommend reviewing them for best practices.
+## Documentação
 
-We are not currently accepting translations of the game on our main repository. If you would like to translate the game into another language consider creating a fork or contributing to a fork.
+A documentação oficial do Goob Station está em [docs.goobstation.com](https://docs.goobstation.com/). Lá você encontra guias sobre o conteúdo, motor do jogo, design e muito mais.
 
-## Building
+## Contribuindo
 
-1. Clone this repo.
-2. Run `RUN_THIS.py` to init submodules and download the engine.
-3. Compile the solution.
+Contribuições são bem-vindas! Entre no nosso [Discord de Desenvolvimento](https://discord.gg/zXk2cyhzPN) se quiser ajudar. Dê uma olhada nas [issues abertas](https://github.com/TeatroEspacial/Goob-StationBR/issues) para ver o que precisa ser feito.
 
-[More detailed instructions on building the project.](https://docs.goobstation.com/en/general-development/setup.html)
+## Compilando
 
-## License
+1. Clone este repositório
+2. Execute `RUN_THIS.py` para inicializar os submodules e baixar o motor
+3. Compile a solução
 
-All code in this codebase is released under the AGPL-3.0-or-later license. Each file includes REUSE Specification headers or separate .license files that specify a dual license option. This dual licensing is provided to simplify the process for projects that are not using AGPL, allowing them to adopt the relevant portions of the code under an alternative license. You can review the complete texts of these licenses in the LICENSES/ directory.
+[Instruções detalhadas de build](https://docs.goobstation.com/en/general-development/setup.html)
 
-Most media assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and the copyright in the metadata file. [Example](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+## Licença
 
-Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
+Todo o código neste repositório é distribuído sob a licença **AGPL-3.0-or-later**. Cada arquivo inclui cabeçalhos REUSE ou arquivos .license separados que especificam uma opção de licenciamento duplo.
+
+A maioria dos assets de mídia está licenciada sob [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), salvo indicação contrária. Alguns assets estão sob licenças não-comerciais como [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) — estes precisam ser removidos se você quiser usar este projeto comercialmente.
