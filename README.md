@@ -45,7 +45,7 @@ Bem-vindo ao **Teatro Espacial 14** — um servidor brasileiro de **Space Statio
 
 ## Links
 
-[Discord do Teatro Espacial](https://discord.gg/teatroespacial) | [Discord de Desenvolvimento](https://discord.gg/zXk2cyhzPN)
+[Discord do Teatro Espacial](https://discord.gg/eezA42Yetx) | [Discord de Desenvolvimento](https://discord.gg/zXk2cyhzPN)
 
 ## Sobre o Projeto
 
