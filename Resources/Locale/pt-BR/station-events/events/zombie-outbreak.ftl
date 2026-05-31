@@ -1,1 +1,0 @@
-station-event-zombie-outbreak-announcement =  Confirmados avistamentos de vários mortos-vivos a bordo da estação... todo o pessoal deve se armar, bloquear portas e proteger sua localização... para evitar mais infecções.

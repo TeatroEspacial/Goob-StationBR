@@ -1,3 +1,0 @@
-lavaland-weather-start-message =  Você sente como se o vento começa soprando mais forte...
-
-lavaland-weather-end-message = O vento está saindo.

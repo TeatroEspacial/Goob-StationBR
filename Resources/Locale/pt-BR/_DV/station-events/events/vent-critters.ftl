@@ -1,1 +1,0 @@
-station-event-vent-creatures-start-announcement-deltav = Um grande fluxo de formas de vida desconhecidas foi detectado em sistemas de ventilação próximos de { $location } Todo o pessoal deve sair da área imediatamente.

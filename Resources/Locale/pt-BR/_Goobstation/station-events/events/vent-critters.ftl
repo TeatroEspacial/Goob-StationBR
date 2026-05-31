@@ -1,1 +1,0 @@
-goob-station-event-vent-creatures-skibidi-start-announcement =  Atenção, altos níveis de Skibidi Rizz detectados na estação, por favor, livrem-se dessas criaturas antes que esta estação se transforme em Ohio.

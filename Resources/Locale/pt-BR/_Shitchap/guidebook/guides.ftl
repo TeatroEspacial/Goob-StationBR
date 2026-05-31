@@ -1,1 +1,0 @@
-guide-entry-chaplain = Capelão.

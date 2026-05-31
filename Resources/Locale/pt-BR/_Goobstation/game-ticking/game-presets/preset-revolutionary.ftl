@@ -1,1 +1,0 @@
-rev-eotr-gain = Com o último chefe de departamento desaparecido, vocês estão agora cercados por seguidores do novo regime instável, vocês são o Inimigo da Revolução, matem, exilem, retenham ou protejam todos os revolucionários para recuperar o controle sobre a estação!

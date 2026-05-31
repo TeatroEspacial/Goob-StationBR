@@ -1,3 +1,0 @@
-frezon-lungs-cold =  Seus pulmões estão mais frios.
-
-frezon-euphoric =  Você se sente frio, mas eufórico.
