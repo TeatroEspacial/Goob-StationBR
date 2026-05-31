@@ -92,7 +92,12 @@ public abstract class SharedChameleonProjectorSystem : EntitySystem
 
     private void OnDisguiseShutdown(Entity<ChameleonDisguiseComponent> ent, ref ComponentShutdown args)
     {
-        _actions.RemoveProvidedActions(ent.Comp.User, ent.Comp.Projector);
+        // only remove the specific projector actions rather than everything provided, for morph
+        if (!TryComp<ChameleonProjectorComponent>(ent.Comp.Projector, out var proj))
+            return;
+
+        _actions.RemoveAction(proj.NoRotActionEntity);
+        _actions.RemoveAction(proj.AnchorActionEntity);
     }
 
     #endregion

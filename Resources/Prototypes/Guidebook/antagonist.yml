@@ -52,6 +52,7 @@
   - Xenomorphs # WD - Xenomorphs
   - Wraith
   - Slasher # Goob content
+  - Morph # Goob content
 
 - type: guideEntry
   id: Traitors
@@ -87,3 +88,4 @@
   id: Thieves
   name: guide-entry-thieves
   text: "/ServerInfo/Guidebook/Antagonist/Thieves.xml"
+
