@@ -117,8 +117,6 @@
       - Anchorable
       - Item
       - Supermatter
-      tags:
-      - VimPilot
     blacklist:
       components:
       - Morph

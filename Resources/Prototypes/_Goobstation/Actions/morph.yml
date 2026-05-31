@@ -20,18 +20,16 @@
   - type: Action
     itemIconStyle: BigAction
     icon:
-      sprite: Objects/Consumable/Drinks/mug_one.rsi
-      state: icon
+      sprite: _Goobstation/Mobs/morph.rsi
+      state: morph
   - type: TargetAction
     interactOnMiss: false
   - type: EntityTargetAction
     whitelist:
       components:
-      - MobState
       - Anchorable
       - Item
-      tags:
-      - Bot
+    interactOnMiss: false
     event: !type:MorphActionEvent
 
 - type: entity
@@ -43,17 +41,26 @@
   - type: Action
     icon:
       sprite: Objects/Devices/chameleon_projector.rsi
-      state: icon
+      state: morph
   - type: InstantAction
     event: !type:UnMorphActionEvent
 
 - type: entity
-  parent: ActionDevour
+  parent: BaseAction
   id: ActionMorphDevour
+  name: "[color=red]Devour[/color]"
   description: Attempt to eat an item or creature, increasing your biomass.
   components:
+  - type: Action
+    icon: { sprite : Interface/Actions/devour.rsi, state: morph }
+    iconOn: { sprite : Interface/Actions/devour.rsi, state: morph-on }
+    itemIconStyle: BigAction
+    priority: 1
+  - type: TargetAction
   - type: EntityTargetAction
+    canTargetSelf: false
     whitelist:
       components:
       - MobState
       - Item
+    event: !type:DevourActionEvent
