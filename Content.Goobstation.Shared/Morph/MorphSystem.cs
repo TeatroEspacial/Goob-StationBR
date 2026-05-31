@@ -3,11 +3,11 @@
 using Content.Shared.Actions;
 using Content.Shared.Alert;
 using Content.Shared.Chat;
-using Content.Shared.Damage.Systems;
+using Content.Shared.Damage;
 using Content.Shared.Devour;
 using Content.Shared.DoAfter;
 using Content.Shared.Examine;
-using Content.Shared.FixedPoint;
+using Content.Goobstation.Maths.FixedPoint;
 using Content.Shared.Humanoid;
 using Content.Shared.Item;
 using Content.Shared.Mind.Components;
@@ -38,7 +38,7 @@ public sealed class MorphSystem : EntitySystem
     [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly EntityQuery<ChameleonDisguisedComponent> _disguisedQuery = default!;
-    [Dependency] private readonly EntityQuery<HumanoidProfileComponent> _humanoidQuery = default!;
+    [Dependency] private readonly EntityQuery<HumanoidAppearanceComponent> _humanoidQuery = default!;
     [Dependency] private readonly EntityQuery<ItemComponent> _itemQuery = default!;
     [Dependency] private readonly EntityQuery<MindContainerComponent> _mindQuery = default!;
     [Dependency] private readonly EntityQuery<MobStateComponent> _mobQuery = default!;

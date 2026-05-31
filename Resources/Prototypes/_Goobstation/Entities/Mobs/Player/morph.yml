@@ -93,7 +93,7 @@
       - Item
     foodPreferenceWhitelist:
       components:
-      - HumanoidProfile
+      - HumanoidAppearance
   - type: Morph
     actions:
     - ActionMorphReplicate
