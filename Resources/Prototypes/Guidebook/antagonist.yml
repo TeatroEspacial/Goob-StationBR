@@ -89,7 +89,3 @@
   name: guide-entry-thieves
   text: "/ServerInfo/Guidebook/Antagonist/Thieves.xml"
 
-- type: guideEntry
-  id: Morph
-  name: guide-entry-morph
-  text: "/ServerInfo/_Goobstation/Guidebook/Antagonist/Morph.xml"

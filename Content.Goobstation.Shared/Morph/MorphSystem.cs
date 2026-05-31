@@ -37,16 +37,24 @@ public sealed class MorphSystem : EntitySystem
     [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
-    [Dependency] private readonly EntityQuery<ChameleonDisguisedComponent> _disguisedQuery = default!;
-    [Dependency] private readonly EntityQuery<HumanoidAppearanceComponent> _humanoidQuery = default!;
-    [Dependency] private readonly EntityQuery<ItemComponent> _itemQuery = default!;
-    [Dependency] private readonly EntityQuery<MindContainerComponent> _mindQuery = default!;
-    [Dependency] private readonly EntityQuery<MobStateComponent> _mobQuery = default!;
-    [Dependency] private readonly EntityQuery<MorphComponent> _query = default!;
+
+    private EntityQuery<ChameleonDisguisedComponent> _disguisedQuery;
+    private EntityQuery<HumanoidAppearanceComponent> _humanoidQuery;
+    private EntityQuery<ItemComponent> _itemQuery;
+    private EntityQuery<MindContainerComponent> _mindQuery;
+    private EntityQuery<MobStateComponent> _mobQuery;
+    private EntityQuery<MorphComponent> _query;
 
     public override void Initialize()
     {
         base.Initialize();
+
+        _disguisedQuery = GetEntityQuery<ChameleonDisguisedComponent>();
+        _humanoidQuery = GetEntityQuery<HumanoidAppearanceComponent>();
+        _itemQuery = GetEntityQuery<ItemComponent>();
+        _mindQuery = GetEntityQuery<MindContainerComponent>();
+        _mobQuery = GetEntityQuery<MobStateComponent>();
+        _query = GetEntityQuery<MorphComponent>();
 
         SubscribeLocalEvent<MorphComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<MorphComponent, MorphActionEvent>(OnMorphAction);
